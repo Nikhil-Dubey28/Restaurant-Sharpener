@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
+import Cart from "./Cart";
+
 
 const CartButton = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
